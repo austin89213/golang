@@ -39,6 +39,13 @@ func main() {
 		"\t\t}\n" +
 		"\t}]\n" +
 		"}\n"
-
+	// use raw string
+	json = `{
+        "Items": [{
+                "Item": {
+                        "name": "Teddy Bear"
+                }
+        }]
+}`
 	fmt.Println(json)
 }
