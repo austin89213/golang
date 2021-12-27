@@ -37,7 +37,7 @@ import (
 func main() {
 	l := len(os.Args) - 1
 	if l == 0 {
-		fmt.Println("Give me args\n")
+		fmt.Println("Give me args")
 	} else if l == 1 {
 		fmt.Printf("There is one: \"%s\"\n", os.Args[1])
 	} else if l == 2 {
